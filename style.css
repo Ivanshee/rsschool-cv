@@ -3,12 +3,6 @@
         src: url("assets/fonts/Lato/Lato-Regular.ttf")
 }
 
-@media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-  }
-
 body {
     font-family: Lato;
     font-size: 18px;
@@ -21,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: #91908b65;
 }
 
 .section-title {
@@ -65,9 +60,9 @@ html {
 
 .nav-link {
     padding: 0 20px;
-    line-height: 50px;
-    font-size: larger;
-    transition: 3s;
+    line-height: 40px;
+    font-size: 14px;
+    transition: 2s;
   }
 
 a {
@@ -104,6 +99,11 @@ a {
 }
 
 .link:hover {
-  color: #ff0000;
+  color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
